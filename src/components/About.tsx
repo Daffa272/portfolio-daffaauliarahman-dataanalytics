@@ -1,6 +1,7 @@
 import React from 'react';
 import { PERSONAL_INFO } from '../data/portfolioData';
 import { Check, Target, Workflow, LineChart, ShieldCheck } from 'lucide-react';
+import analystPortrait from '../assets/images/analyst_editorial_avatar_1791612839998.jpg';
 
 export const About: React.FC = () => {
   return (
@@ -25,7 +26,7 @@ export const About: React.FC = () => {
           <div className="lg:col-span-5">
             <div className="relative rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 shadow-md">
               <img
-                src="/src/assets/images/analyst_editorial_avatar_1791612839998.jpg"
+                src={analystPortrait}
                 alt="Daffa Aulia Rahman - Data Analyst & Economic Researcher"
                 className="w-full aspect-square object-cover object-top"
                 referrerPolicy="no-referrer"

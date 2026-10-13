@@ -1,3 +1,8 @@
+import salesAnalyticsImage from '../assets/images/project_sales_analytics_1791612785676.jpg';
+import customerRfmImage from '../assets/images/project_customer_rfm_1791612799554.jpg';
+import financialKpiImage from '../assets/images/project_financial_kpi_1791612812605.jpg';
+import marketForecastingImage from '../assets/images/project_market_forecasting_1791612829111.jpg';
+
 export interface ProjectCaseStudy {
   id: string;
   title: string;
@@ -301,7 +306,7 @@ export const FEATURED_PROJECTS: ProjectCaseStudy[] = [
     category: 'Python',
     categories: ['Python', 'R', 'Research Analytics', 'Streamlit'],
     summary: 'Engineered a Python- and Streamlit-based bibliometric analytics application to process and classify 500,000+ Scopus-indexed publications using SCImago Journal Rank (SJR) metrics.',
-    previewImage: '/src/assets/images/project_sales_analytics_1791612785676.jpg',
+    previewImage: salesAnalyticsImage,
     tools: ['Python', 'Streamlit', 'RStudio', 'Biblioshiny', 'Scopus Data', 'Pandas'],
     duration: 'BRIN Research Fellowship',
     impactMetric: '500,000+ Publications Analyzed · -30% Processing Time',
@@ -364,7 +369,7 @@ def process_scopus_corpus(df_publications, df_sjr_benchmarks):
     category: 'Business Intelligence',
     categories: ['Looker Studio', 'Google Sites', 'Data Analytics', 'Excel'],
     summary: 'Developed an integrated village waste management application and interactive Looker Studio dashboard to digitize municipal waste data collection and optimize community programs in Garut Regency.',
-    previewImage: '/src/assets/images/project_customer_rfm_1791612799554.jpg',
+    previewImage: customerRfmImage,
     tools: ['Looker Studio', 'Google Sites', 'Microsoft Excel', 'Data Classification'],
     duration: 'AGAVI & Garut Regency Project',
     impactMetric: 'Digitized Municipal Waste Tracking across Village Networks',
@@ -406,7 +411,7 @@ def process_scopus_corpus(df_publications, df_sjr_benchmarks):
     category: 'Financial Analysis',
     categories: ['Financial Analysis', 'JavaScript', 'HTML/CSS', 'Excel'],
     summary: 'Built a web-based financial analytics platform executing 3-stage DuPont analysis, scenario projections, and investment feasibility calculations to assess corporate operational health.',
-    previewImage: '/src/assets/images/project_financial_kpi_1791612812605.jpg',
+    previewImage: financialKpiImage,
     tools: ['JavaScript', 'HTML5', 'CSS3', 'Financial Modeling', 'DuPont Analysis'],
     duration: 'Financial Economics Research',
     impactMetric: 'Automated 3-Stage DuPont & Feasibility Calculations',
@@ -448,7 +453,7 @@ def process_scopus_corpus(df_publications, df_sjr_benchmarks):
     category: 'SQL',
     categories: ['SQL', 'Python', 'AI Automation', 'Web Development'],
     summary: 'Developed an automated data application utilizing Gemini / LLM APIs to transform unstructured raw customer and product notes into structured relational database schemas for REPARFUME.',
-    previewImage: '/src/assets/images/project_market_forecasting_1791612829111.jpg',
+    previewImage: marketForecastingImage,
     tools: ['Gemini AI API', 'Python', 'SQL', 'JavaScript', 'Market Research'],
     duration: 'REPARFUME Technical Project',
     impactMetric: 'Automated Unstructured-to-SQL Pipeline & Centralized DB',
